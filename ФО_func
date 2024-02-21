@@ -1,0 +1,39 @@
+"""
+from datetime import datetime, date, time
+from ФО_database import list_of_9_3
+
+def left() -> list:
+    l = open('D:\project PMS\left', )
+    flag = True
+    while True:
+        pass
+
+
+def clean() -> list:
+    dt = str(date.today())
+    y, m, d  = map(int, dt.split("-"))
+    cl = []
+    for i in list_of_9_3:
+        pass
+
+
+def morning():
+    l = []
+    for i in eng_trans_name:
+        l.append(f"/{i.split()[0]}_{i.split()[1]}")
+
+    max_size = 0
+    for i in range(len(l)):
+
+        if len(l[i]) > max_size:
+            max_size = len(l[i])
+
+    for i in range(len(l)):
+
+        l[i] += ' / ' + list_of_9_3[i]  + '\n'
+       
+    
+    snd_msgg = ''
+    for i in l:
+        snd_msgg += i
+"""
